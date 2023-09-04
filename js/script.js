@@ -245,25 +245,20 @@ const images = slider.querySelectorAll('.img_slider');
 let currentImageIndex = 0;
 
 function showNextImage() {
-  // Скрыть текущее изображение
   images[currentImageIndex].classList.remove('active');
-
-  // Увеличить индекс текущего изображения
   currentImageIndex++;
 
-  // Если достигнут конец списка изображений, вернуться к первому изображению
   if (currentImageIndex >= images.length) {
     currentImageIndex = 0;
   }
 
-  // Показать следующее изображение
+
   images[currentImageIndex].classList.add('active');
 }
 
-// Показать первое изображение
+
 images[currentImageIndex].classList.add('active');
 
-// Запустить смену изображений каждые 10 секунд
 setInterval(showNextImage, 5000);
 
 
