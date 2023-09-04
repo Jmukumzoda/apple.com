@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 70%;
+    height: 990px;
+    margin: 0 auto;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 100px;
+}
+
+.wrapper p {
+
+    text-align: center;
+    font-size: 18px;
+}
+
+.apple_mac {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.imac3 {
+    display: none;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.text h2 {
+    font-size: 48px;
+
+}
+
+.text p {
+    line-height: 150px;
+    font-size: 48px;
+    text-align: start;
+}
+
+
+.mesto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.div {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.div button {
+    width: 14%;
+    height: 36px;
+}
+
+.div button:nth-child(1) {
+    background: #0071E3;
+    border-radius: 5px;
+    border: none;
+
+}
+.div button.bac2{
+    background-color: #CFE7FF;
+}
+a {
+    color: wheat;
+
+}
+
+.div button:nth-child(2) {
+    background: #CFE7FF;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: none;
+
+}
+.div button.bac{
+    background-color: #0071E3;
+}
+.mac_texxt{
+    display: none;
+}
+
+.texxt_11{
+    display: flex;  
+    flex-direction: column;
+}
+
+.input_one {
+    border: 2px solid #007FFF
+}
+
+input {
+    border: 2px solid #CFE7FF;
+    margin-top: 7px;
+    width: 27%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
